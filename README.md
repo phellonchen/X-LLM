@@ -27,10 +27,10 @@ An evaluation dataset with 30 unseen images is constructed: each image is assoca
 ## Examples
 Visual input example, The Forbidden City
 <p align="center">
-    <img src="images/cmp_forbidden.png" width="90%"> <br>
+    <img src="images/cmp_forbidden.png" width="70%"> <br>
 </p>
 
 Visual input example, Honor of Kings
 <p align="center">
-    <img src="images/cmp_kings.png" width="90%"> <br>
+    <img src="images/cmp_kings.png" width="70%"> <br>
 </p>
