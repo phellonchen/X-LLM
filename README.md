@@ -17,6 +17,21 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 - Stage 2: Aligning X2L Representations with the LLM. Inject foreign languages into LLM, only X2L interfaces are updated.
 - Stage 3: Integrating Multiple Modalities. Integrating multi-modalities, only the adapters in X2L interfaces are updated.
 
+## Release
+[5/6] We will releaser the code as soon as poosisble!
+
+## Contents
+- [Data Download](#data-download)
+- [Install](#install)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Performance](#performance)
+
+## Data Download
+## Install
+## Training
+## Evaluation
+
 ## Performance
 An evaluation dataset with 30 unseen images is constructed: each image is assocaited with three types of instructions: conversation, detailed description and complex reasoning. This leads to 90 new language-image instructions, on which we test X-LLM and GPT-4, and use ChatGPT to rate their responses from score 1 to 10. The summed score and relative score per type is reported. Overall, X-LLM achieves 84.5% relative score compared with GPT-4, indicating the effectinvess of the proposed method in multimodal settings.
 
