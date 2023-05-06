@@ -50,3 +50,17 @@ Visual input example, Honor of Kings
 <p align="center">
     <img src="images/cmp_kings.png" width="70%"> <br>
 </p>
+
+
+## Acknowledgement
+
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): The codebase we built upon, and our base model ChatGLM-6B that has the amazing language capabilities!
+- [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2): The model architecture of X-LLM follows BLIP-2. Don't forget to check this great open-source work if you don't know it before!
+
+
+If you find X-LLM useful for your your research and applications, please cite using this BibTeX:
+  @article{chen2023xllm,
+    author      = {Chen, Feilong and Han, Minglun and Zhao, Haozhi and Zhang, Qingyang and Shi, Jing and Xu, Shuang Xu and Xu, Bo},
+    title       = {X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages},
+    year        = {2023}
+  }
