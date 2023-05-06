@@ -1,5 +1,5 @@
 # X-LLM
-X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages
+## X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages
 
 [[Project Page](https://x-llm.github.io/)] [[Paper]()]
 
