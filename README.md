@@ -21,7 +21,7 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 An evaluation dataset with 30 unseen images is constructed: each image is assocaited with three types of instructions: conversation, detailed description and complex reasoning. This leads to 90 new language-image instructions, on which we test X-LLM and GPT-4, and use ChatGPT to rate their responses from score 1 to 10. The summed score and relative score per type is reported. Overall, X-LLM achieves 84.5% relative score compared with GPT-4, indicating the effectinvess of the proposed method in multimodal settings.
 
 <p align="center">
-    <img src="images/pie_x-llm_gpt4.png" width="90%"> <br>
+    <img src="images/pie_x-llm_gpt4.png" width="95%"> <br>
 </p>
 
 ## Examples
