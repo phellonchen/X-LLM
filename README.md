@@ -54,7 +54,7 @@ Visual input example, Honor of Kings
 
 ## Acknowledgement
 
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): The codebase we built upon, and our base model ChatGLM-6B that has the amazing language capabilities!
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): The codebase we built upon, and our base model ChatGLM-6B that has the amazing Chinese language capabilities!
 - [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2): The model architecture of X-LLM follows BLIP-2. Don't forget to check this great open-source work if you don't know it before!
 
 
