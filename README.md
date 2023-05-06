@@ -8,7 +8,7 @@ X-LLM converts multi-modalities (images, speech, videos) into foreign languages 
 X-LLM is a general multimodal LLM framework that allows us to incorporate various modalities of information into LLMs, such as (1) non-speech audios, enabling the LLM to have conversations about audios (2) terminal device status information, enabling LLM to control terminal devices, and so on.
 
 <p align="center">
-    <img src="images/x-llm.png" width="90%"> <br>
+    <img src="images/x-llm.png" width="95%"> <br>
     X-LLM framework
 </p>
 
