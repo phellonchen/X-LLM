@@ -1,7 +1,8 @@
 # X-LLM
 ## X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages
 
-[[Project Page](https://x-llm.github.io/)] [[Paper]()]
+<!-- [[Project Page](https://x-llm.github.io/)] [[Paper]()] -->
+<a href='https://x-llm.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 X-LLM converts multi-modalities (images, speech, videos) into foreign languages using X2L interfaces and feed them into a large Language Model (ChatGLM) to accomplish a Multimodal LLM, achieving impressive multimodal chat capabilities.
 
