@@ -60,10 +60,10 @@ Visual input example, Honor of Kings
 
 If you find X-LLM useful for your your research and applications, please cite using this BibTeX:
 ```
-  @misc{chen2023xllm,
-    author      = {Chen, Feilong and Han, Minglun and Zhao, Haozhi and Zhang, Qingyang and Shi, Jing and Xu, Shuang Xu and Xu, Bo},
-    title       = {X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages},
-    publisher   = {arXiv:2305.04160},
-    year        = {2023}
-  }
- ```
+@misc{chen2023xllm,
+    author={Chen, Feilong and Han, Minglun and Zhao, Haozhi and Zhang, Qingyang and Shi, Jing and Xu, Shuang Xu and Xu, Bo},
+    title={X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages},
+    publisher={arXiv:2305.04160},
+    year={2023},
+}
+```
