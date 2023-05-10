@@ -19,7 +19,7 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 - Stage 3: Integrating Multiple Modalities. Integrating multi-modalities, only the adapters in X2L interfaces are updated.
 
 ## Release
-[5/6] We will release the code as soon as poosisble!
+[5/6] We will release the code as soon as possible!
 
 ## Contents
 - [Data Download](#data-download)
