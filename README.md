@@ -58,6 +58,8 @@ Visual input example, Honor of Kings
 - [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2): The model architecture of X-LLM follows BLIP-2. Don't forget to check this great open-source work if you don't know it before!
 
 
+
+
 If you find X-LLM useful for your your research and applications, please cite using this BibTeX:
 ```
 @article{chen2023xllm,
