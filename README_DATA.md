@@ -6,7 +6,7 @@ We provide links to download our preprocessed dataset. If you would like to proc
 
 Note that you should update the image/video/speech file paths in the json files.
 
-And please use your own file path to replace the original path in xllm/configs/datasets*/*.yaml or xllm/projects/train/*.yaml 
+And please use your own file path to replace the original path in xllm/configs/datasets/*/*.yaml or xllm/projects/train/*.yaml 
 
 ## Image Interface
 The pretraining datasets used in X-LLM are all publicly available. Here we provide the public links to these data, it is recommended that you download images pf the data from the links first, and then link the image paths with the downloaded dataset json (Chinese) we provided.
