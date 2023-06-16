@@ -4,7 +4,7 @@ We will update this file as soon as possible！
 
 We provide links to download our preprocessed dataset. If you would like to process the data on your own, we will soon provide scripts for you to do so. 
 
-Note that you should update the image/video/speech file paths in the json files.
+Note that you should replace the image/video/speech file paths in the json files according to your storage path.
 
 And please use your own file path to replace the original path in xllm/configs/datasets/\*/\*.yaml or xllm/projects/train/\*.yaml 
 
@@ -68,7 +68,7 @@ or
 ]
 ```
 We do not use the item "image_id", which is the same as "image" most cases.
-Note that you should update the image/video/speech file paths in the json files.
+Note that you should replace the image paths in the json files according to your storage path.
 
 ## Speech Interface
 We provide the public links to speech data (*.wav & feats), it is recommended that you download the data from the links first, and then link the speech data paths with the downloaded dataset json we provided.
