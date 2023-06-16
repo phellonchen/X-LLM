@@ -13,25 +13,25 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
         <th>Dataset</th><th>Image</th><th>Data</th>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>CC3M</td><td><a href="https://github.com/google-research-datasets/conceptual-captions">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>MSCOCO</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>MSCOCO</td><td><a href="https://cocodataset.org/">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>Visual Genome</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Visual Genome</td><td><a href="https://visualgenome.org/">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>Flickr30k</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Flickr30k</td><td><a href="http://shannon.cs.illinois.edu/DenotationGraph/">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>SBU</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>SBU</td><td><a href="https://www.cs.rice.edu/~vo9/sbucaptions/">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
         <td>AI Challenger captions</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>Wukong captions</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Wukong captions</td><td><a href="https://github.com/AIChallenger/AI_Challenger_2017">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
 </table>
 <br></br>
@@ -62,10 +62,10 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
         <th>Dataset</th><th>Video</th><th>Data</th>
     </tr>
     <tr align="center">
-        <td>MSRVTT</td><td><a href="">Video Url</a></td><td><a href="">Data Json</a></td>
+        <td>MSRVTT</td><td><a href="https://github.com/ArrowLuo/CLIP4Clip">Video Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>ActivityNet</td><td><a href="">Video Url</a></td><td><a href="">Data Json</a></td>
+        <td>ActivityNet</td><td><a href="http://activity-net.org/download.html">Video Url</a></td><td><a href="">Data Json</a></td>
     </tr>
 </table>
 <br></br>
