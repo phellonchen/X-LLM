@@ -29,8 +29,10 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 - [Performance](#performance)
 
 ## Data Download
+Please see the [README_DATA.md](https://github.com/phellonchen/X-LLM/blob/main/README_DATA.md) for details.
 ## Install
 ## Training
+Please see the [README_TRAIN_EVAL.md](https://github.com/phellonchen/X-LLM/blob/main/README_TRAIN_EVAL.md) for details.
 ## Evaluation
 
 ## Performance
