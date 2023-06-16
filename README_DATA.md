@@ -39,6 +39,35 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
 </table>
 <br></br>
 
+Data Format
+```
+[
+    {
+        "image": "train2014/COCO_train2014_000000013356.jpg",
+        "caption": [
+            "一个站在玻璃附近的白衣男子",
+            "一个人在破旧的浴室里穿着防护服和面具",
+            "一个人从头到脚穿着白色涂在房间里",
+            "浴室正在装修，一个人在墙上画画",
+            "一个穿着防护服的人在房间里工作"
+        ],
+        "image_id": "train2014/COCO_train2014_000000013356.jpg",
+        "dataset": "coco_zh"
+    },
+]
+```
+or
+```
+[
+    {
+        "image": "/raid/cfl/en_pretraining/data/images/sbu/pythonDownload/subpic/5eda85e140.jpg",
+        "caption": "谢菲尔德公园花园苏塞克斯湖边的老树",
+        "image_id": "5eda85e140.jpg",
+        "dataset": "sbu_zh"
+    },
+]
+```
+We do not use the item "image_id", which is the same as "image" most cases.
 
 ## Speech Interface
 We provide the public links to speech data (*.wav & feats), it is recommended that you download the data from the links first, and then link the speech data paths with the downloaded dataset json we provided.
