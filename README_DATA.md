@@ -68,6 +68,7 @@ or
 ]
 ```
 We do not use the item "image_id", which is the same as "image" most cases.
+Note that you should update the image/video/speech file paths in the json files.
 
 ## Speech Interface
 We provide the public links to speech data (*.wav & feats), it is recommended that you download the data from the links first, and then link the speech data paths with the downloaded dataset json we provided.
