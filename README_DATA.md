@@ -16,16 +16,22 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
         <td>CC3M</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>MSCOCO</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Visual Genome</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Flickr30k</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>SBU</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+    </tr>
+    <tr align="center">
+        <td>AI Challenger captions</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+    </tr>
+    <tr align="center">
+        <td>Wukong captions</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
     </tr>
 </table>
 <br></br>
@@ -33,6 +39,19 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
 
 ## Speech Interface
 We provide the public links to speech data (*.wav & feats), it is recommended that you download the data from the links first, and then link the speech data paths with the downloaded dataset json we provided.
+
+<table border="1" width="100%">
+    <tr align="center">
+        <th>Dataset</th><th>Audio/Features</th><th>Data</th>
+    </tr>
+    <tr align="center">
+        <td>AISHELL-2</td><td><a href="">Audio/Features</a></td><td><a href="">Data Json</a></td>
+    </tr>
+    <tr align="center">
+        <td>VSDial-CN</td><td><a href="">Audio/Features</a></td><td><a href="">Data Json</a></td>
+    </tr>
+</table>
+<br></br>
 
 ## Video Interface
 The pretraining datasets used in X-LLM are all publicly available. Here we provide the public links to these data, it is recommended that you download video pf the data from the links first, and then link the video paths with the downloaded dataset json (Chinese) we provided.
@@ -43,10 +62,10 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
         <th>Dataset</th><th>Video</th><th>Data</th>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Video Url</a></td><td><a href="">Data Json</a></td>
+        <td>MSRVTT</td><td><a href="">Video Url</a></td><td><a href="">Data Json</a></td>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="">Video Url</a></td><td><a href="">Data Json</a></td>
+        <td>ActivityNet</td><td><a href="">Video Url</a></td><td><a href="">Data Json</a></td>
     </tr>
 </table>
 <br></br>
