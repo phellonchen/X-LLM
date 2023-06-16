@@ -22,8 +22,8 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 [5/6] We will release the code as soon as possible!
 
 ## Contents
-- [Data Download](#data-download)
 - [Install](#install)
+- [Dataset](#dataset)
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Performance](#performance)
@@ -44,7 +44,7 @@ cd X-LLM
 pip install -e .
 ```
 
-## Data Download
+## Dataset
 Please see the [README_DATA.md](https://github.com/phellonchen/X-LLM/blob/main/README_DATA.md) for details.
 
 ## Training
