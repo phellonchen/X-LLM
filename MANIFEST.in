@@ -1,0 +1,7 @@
+recursive-include xllm/configs *.yaml *.json
+recursive-include xllm/projects *.yaml *.json
+
+recursive-exclude xllm/datasets/download_scripts *
+recursive-exclude xllm/output *
+
+include requirements.txt

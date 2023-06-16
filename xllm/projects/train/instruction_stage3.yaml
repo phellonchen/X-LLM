@@ -1,0 +1,97 @@
+ # Copyright (c) 2022, salesforce.com, inc.
+ # All rights reserved.
+ # SPDX-License-Identifier: BSD-3-Clause
+ # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+
+model:
+  arch: xllm
+  model_type: pretrain_xllm # pretrain_opt2.7b  # pretrain_flant5xl
+  load_finetuned: False
+  pretrained: "/raid/cfl/cn_pretraining_multi_dialog/xllm/xllm/output/BLIP2/Pretrain_stage2_1400w/20230405133/checkpoint_4.pth"
+  freeze_vit: True
+  load_speech_adaptor: True
+  speech_adaptor_ckpt: "/raid/cfl/cn_pretraining_multi_dialog/xllm-speech-lora/xllm/output/BLIP2/finetune_asr_new/20230420001/checkpoint_14.pth"
+
+  # Recently added items
+  forward_mode: "split"
+  split_tasks: "masr" # "asr,masr,vl,vsd"
+  asr_loss_scale: 1.0
+  vd_loss_scale: 1.0
+  vsd_loss_scale: 1.0
+  speech_adaptor_type: "bert"
+
+  max_txt_len: 256
+
+datasets:
+  asr_instruction_zh:
+    vis_processor:
+        train:
+          name: "blip2_image_train"
+          image_size: 224
+    text_processor:
+        train:
+          name: "blip_caption"
+  masr_instruction_zh:
+    vis_processor:
+      train:
+        name: "blip2_image_train"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+
+  vl_instruction_zh:
+    vis_processor:
+      train:
+        name: "blip2_image_train"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+  vsd_instruction_zh:
+    vis_processor:
+      train:
+        name: "blip2_image_train"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+  # video_instruction_zh: 
+  #   vis_processor:
+  #       train:
+  #         name: "blip2_image_train"
+  #         image_size: 224
+  #   text_processor:
+  #       train:
+  #         name: "blip_caption"
+
+run:
+  task: image_text_pretrain
+  
+
+  # optimizer
+  lr_sched: "linear_warmup_cosine_lr"
+  init_lr: 1e-6
+  min_lr: 1e-6
+  warmup_lr: 1e-6
+
+  weight_decay: 0.05
+  max_epoch: 2
+  batch_size_train: 4
+  batch_size_eval: 1
+  num_workers: 4
+  warmup_steps: 50 # 6000
+  accum_grad_iters: 4
+
+  seed: 42
+  output_dir: "output/instruction"
+
+  amp: True
+  resume_ckpt_path: null
+  evaluate: False 
+  train_splits: ["train"]
+
+  device: "cuda"
+  world_size: 1
+  dist_url: "env://"
+  distributed: True

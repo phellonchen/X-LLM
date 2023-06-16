@@ -1,0 +1,64 @@
+ # Copyright (c) 2022, salesforce.com, inc.
+ # All rights reserved.
+ # SPDX-License-Identifier: BSD-3-Clause
+ # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+
+model:
+  arch: xllm_speech
+  model_type: pretrain_xllm_speech
+  use_grad_checkpoint: False
+  load_pretrained: False
+  pretrained: "/raid/cfl/cn_pretraining_multi_dialog/xllm/xllm/output/BLIP2/Pretrain_stage2_1400w/20230405133/checkpoint_4.pth"
+  load_speech_adaptor: True
+  speech_adaptor_ckpt: "/raid/cfl/cn_pretraining_multi_dialog/xllm-speech-lora/xllm/output/BLIP2/finetune_asr_new/20230420001/checkpoint_14.pth"
+
+  freeze_vit: True
+  opt_model: "/raid/cfl/cn_pretraining_multi_dialog/cache/chatglm6b"
+  # Recently added items
+  forward_mode: "split"
+  split_tasks: "asr"
+  asr_loss_scale: 1.0
+  vd_loss_scale: 1.0
+  vsd_loss_scale: 1.0
+  speech_adaptor_type: "bert"
+
+datasets:
+   aishell2_asr_zh:
+     vis_processor:
+       eval:
+         name: "blip2_image_train"
+         image_size: 224
+     text_processor:
+       eval:
+         name: "blip_caption"
+
+#  vsdial_asr_zh:
+#    vis_processor:
+#      eval:
+#        name: "blip2_image_train"
+#        image_size: 224
+#    text_processor:
+#      eval:
+#        name: "blip_caption"
+
+run:
+  task: speech2text
+
+  batch_size_train: 4
+  batch_size_eval: 1
+  num_workers: 1
+
+  max_len: 25
+  min_len: 1
+  num_beams: 5
+
+  seed: 42
+  output_dir: "output/BLIP2/finetune_asr/test"
+
+  evaluate: True
+  test_splits: ["test"]
+
+  device: "cuda"
+  world_size: 1
+  dist_url: "env://"
+  distributed: True

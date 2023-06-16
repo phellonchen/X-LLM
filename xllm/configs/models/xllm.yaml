@@ -1,0 +1,40 @@
+ # Copyright (c) 2022, salesforce.com, inc.
+ # All rights reserved.
+ # SPDX-License-Identifier: BSD-3-Clause
+ # For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+
+model:
+  arch: pretrain_xllm
+  load_finetuned: False
+  finetuned: ""
+  pretrained: "/raid/cfl/cn_pretraining_multi_dialog/LAVIS-speech-lora/lavis/checkpoints/merge_speech_imageOld_v_check.pth"
+   # vit encoder
+  image_size: 224
+  drop_path_rate: 0
+  use_grad_checkpoint: False
+  vit_precision: "fp16"
+  freeze_vit: True
+  speech_adaptor_type: "bert"
+  # Q-Former
+  num_query_token: 32
+
+  # LLM
+  opt_model: "/raid/cfl/cn_pretraining_multi_dialog/cache/chatglm6b"
+
+  # generation configs
+  prompt: ""
+
+
+preprocess:
+    vis_processor:
+        train:
+          name: "blip_image_train"
+          image_size: 224
+        eval:
+          name: "blip_image_eval"
+          image_size: 224
+    text_processor:
+        train:
+          name: "blip_caption"
+        eval:
+          name: "blip_caption"

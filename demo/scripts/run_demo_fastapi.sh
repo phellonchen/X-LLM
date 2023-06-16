@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python /raid/cfl/cn_pretraining_multi_dialog/x-llm/demo/fastapi_blip2.py

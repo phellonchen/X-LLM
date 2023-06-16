@@ -1,0 +1,9 @@
+MSRVTT /raid/cfl/data/video_caption/MSRVTT/ /raid/cfl/data/video_caption/MSRVTT/annotation/MSR_VTT_new_ali_zh_train.json
+ai_challenge /raid/cfl/data/ai_challenge /raid/cfl/data/ai_challenge/ai_challenge_multi.json
+cc3m /raid/cfl/en_pretraining/data/images/cc3m /raid/cfl/en_pretraining/data/images/cc3m/cc3m_zh.json
+coco /raid/cfl/en_pretraining/data/images/coco /raid/cfl/en_pretraining/data/images/coco/coco_zh_multi.json
+Flickr30k /raid/cfl/data/Flickr30k-CN/ /raid/cfl/data/Flickr30k-CN/Flickr30k_zh_multi.json
+speech /raid/cfl/data/all_audio_cif_feats -1
+sbu /raid/cfl/en_pretraining/data/images/sbu/pythonDownload/subpic /raid/cfl/en_pretraining/data/images/sbu/sbu_zh.json
+vg /raid/cfl/en_pretraining/data/images/VG /raid/cfl/en_pretraining/data/images/vg_zh.json
+wukong /raid/cfl/data/wukong/image_total /raid/cfl/data/wukong/caption-image-total-1000w-fliter.json

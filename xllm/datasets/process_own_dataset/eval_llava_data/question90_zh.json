@@ -1,0 +1,722 @@
+[
+    {
+        "question_id": 0,
+        "image": "000000441147.jpg",
+        "text": "What is the color of the two suitcases in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中两个手提箱的颜色是什么？",
+        "idx": "0"
+    },
+    {
+        "question_id": 1,
+        "image": "000000441147.jpg",
+        "text": "Analyze the image in a comprehensive and detailed manner.",
+        "category": "detail",
+        "text_zh": "分析图像需全面和详细，不必多余重复。\n\nTo analyze the image comprehensively and in detail without any unnecessary repetition.",
+        "idx": "1"
+    },
+    {
+        "question_id": 2,
+        "image": "000000441147.jpg",
+        "text": "What potential factors could make these suitcases valuable?",
+        "category": "complex",
+        "text_zh": "这些行李箱具有哪些潜在的价值因素？",
+        "idx": "2"
+    },
+    {
+        "question_id": 3,
+        "image": "000000353536.jpg",
+        "text": "What are the main objects on the table in the image?",
+        "category": "conv",
+        "text_zh": "这张图片桌子上的主要物品是什么？",
+        "idx": "3"
+    },
+    {
+        "question_id": 4,
+        "image": "000000353536.jpg",
+        "text": "Describe the following image.",
+        "category": "detail",
+        "text_zh": "描述以下图片。\n\n该图片中有一位年轻女子，她的头部被一张浅色的毛毯覆盖着，只露出了一些头发和脸部区域。她穿着一件红色外套，右手紧握着一支笔，左手搭在膝盖上。她坐在一个木制的长凳上，凳子的左侧还放着一个灰色的帆布包。周围是一片绿草地和一些高大的树木，可以看到天空中的云朵和蓝色的天空。整个画面给人一种安静和舒适的感觉。",
+        "idx": "4"
+    },
+    {
+        "question_id": 5,
+        "image": "000000353536.jpg",
+        "text": "What activity might have recently taken place around this table and what could be its aftermath?",
+        "category": "complex",
+        "text_zh": "这张桌子最近可能发生了什么活动，可能会有什么后果？\n\nPossible translation: What activity could have recently taken place around this table and what could be its aftermath?",
+        "idx": "5"
+    },
+    {
+        "question_id": 6,
+        "image": "000000506095.jpg",
+        "text": "What is the main focus of the image?",
+        "category": "conv",
+        "text_zh": "这张图像的主要焦点是什么？",
+        "idx": "6"
+    },
+    {
+        "question_id": 7,
+        "image": "000000506095.jpg",
+        "text": "What is this photo about'?",
+        "category": "detail",
+        "text_zh": "这张照片是关于什么的？",
+        "idx": "7"
+    },
+    {
+        "question_id": 8,
+        "image": "000000506095.jpg",
+        "text": "What could be a reason for the cat's interest in the laptop?",
+        "category": "complex",
+        "text_zh": "猫对笔记本电脑感兴趣的原因可能是什么？",
+        "idx": "8"
+    },
+    {
+        "question_id": 9,
+        "image": "000000514915.jpg",
+        "text": "What color is the dog in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中的狗是什么颜色？",
+        "idx": "9"
+    },
+    {
+        "question_id": 10,
+        "image": "000000514915.jpg",
+        "text": "Describe the following image.",
+        "category": "detail",
+        "text_zh": "请描述下面的图像。 \n\n抱歉，作为语言模型，我无法看到图像，因此无法描述它。 请提供图像的更多信息，我将尽力为您提供描述。",
+        "idx": "10"
+    },
+    {
+        "question_id": 11,
+        "image": "000000514915.jpg",
+        "text": "Why might the dog have chosen to lay down on the floor in this location?",
+        "category": "complex",
+        "text_zh": "这只狗为什么选择在这个位置躺在地上？",
+        "idx": "11"
+    },
+    {
+        "question_id": 12,
+        "image": "000000056013.jpg",
+        "text": "Where is the cart with luggage bags located?",
+        "category": "conv",
+        "text_zh": "行李箱车在哪里？",
+        "idx": "12"
+    },
+    {
+        "question_id": 13,
+        "image": "000000056013.jpg",
+        "text": "Describe the following image.",
+        "category": "detail",
+        "text_zh": "描述如下图片。\n\n这是一张彩色照片，画面中央有一只灰色的小狗。小狗的眼睛非常大，眼神十分灵敏和警觉。它的身体修长，四肢非常匀称，似乎准备随时奔跑。小狗的毛发刚刚好，显得非常整洁。在小狗的旁边，是一堆五颜六色的玩具，包括球、绳子、骨头等等。画面的后景是一片浅绿色的草地，天空中飘着几朵白云，阳光明媚，给人温馨的感觉。总体来说，这是一张非常有生气和活力的照片，能让人感受到小狗的灵活和快乐。",
+        "idx": "13"
+    },
+    {
+        "question_id": 14,
+        "image": "000000056013.jpg",
+        "text": "What challenges might the staff encounter with handling luggage in the lobby?",
+        "category": "complex",
+        "text_zh": "工作人员在大堂处理行李时可能会面临哪些挑战？",
+        "idx": "14"
+    },
+    {
+        "question_id": 15,
+        "image": "000000408439.jpg",
+        "text": "What is the body of water seen in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中看到的水体是什么？",
+        "idx": "15"
+    },
+    {
+        "question_id": 16,
+        "image": "000000408439.jpg",
+        "text": "Can you elaborate on the elements of the picture provided?",
+        "category": "detail",
+        "text_zh": "你能详细解释一下提供的图片中的元素吗？",
+        "idx": "16"
+    },
+    {
+        "question_id": 17,
+        "image": "000000408439.jpg",
+        "text": "What are potential reasons for the train to be traveling in such a scenic route?",
+        "category": "complex",
+        "text_zh": "火车行驶在如此风景优美的路线上，可能的原因有哪些？",
+        "idx": "17"
+    },
+    {
+        "question_id": 18,
+        "image": "000000164255.jpg",
+        "text": "What is the main object in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中的主要物体是什么？",
+        "idx": "18"
+    },
+    {
+        "question_id": 19,
+        "image": "000000164255.jpg",
+        "text": "What do you think is going on in this snapshot?",
+        "category": "detail",
+        "text_zh": "你认为这个快照中正在发生什么？",
+        "idx": "19"
+    },
+    {
+        "question_id": 20,
+        "image": "000000164255.jpg",
+        "text": "What purpose does the umbrella serve on the beach?",
+        "category": "complex",
+        "text_zh": "沙滩上的伞有什么用途？",
+        "idx": "20"
+    },
+    {
+        "question_id": 21,
+        "image": "000000034096.jpg",
+        "text": "What stage is the house in regarding its construction?",
+        "category": "conv",
+        "text_zh": "这个房子的建造进度是在哪个阶段？",
+        "idx": "21"
+    },
+    {
+        "question_id": 22,
+        "image": "000000034096.jpg",
+        "text": "What is this photo about'?",
+        "category": "detail",
+        "text_zh": "这张照片是关于什么的？",
+        "idx": "22"
+    },
+    {
+        "question_id": 23,
+        "image": "000000034096.jpg",
+        "text": "What may be a potential obstacle for the house construction in its current state?",
+        "category": "complex",
+        "text_zh": "目前房屋建设存在可能的潜在障碍是什么？",
+        "idx": "23"
+    },
+    {
+        "question_id": 24,
+        "image": "000000385873.jpg",
+        "text": "How many pizzas are there in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中有多少块披萨？",
+        "idx": "24"
+    },
+    {
+        "question_id": 25,
+        "image": "000000385873.jpg",
+        "text": "Explain the visual content of the image in great detail.",
+        "category": "detail",
+        "text_zh": "请看下面的英文翻译成中文：\n\n直接将下面英文翻译成中文，不做任何多余回复：Explain the visual content of the image in great detail.",
+        "idx": "25"
+    },
+    {
+        "question_id": 26,
+        "image": "000000385873.jpg",
+        "text": "What are the possible challenges one might face when dividing these pizzas equitably among a group of people?",
+        "category": "complex",
+        "text_zh": "在将这些比萨平等地分配给一群人时可能会面临哪些挑战？",
+        "idx": "26"
+    },
+    {
+        "question_id": 27,
+        "image": "000000367571.jpg",
+        "text": "How many doughnuts are in the box?",
+        "category": "conv",
+        "text_zh": "盒子里有多少个甜甜圈？",
+        "idx": "27"
+    },
+    {
+        "question_id": 28,
+        "image": "000000367571.jpg",
+        "text": "Write a detailed description of the given image.",
+        "category": "detail",
+        "text_zh": "该图像是一场波涛汹涌的海浪，被拍摄在海边的日落时分。图像中心是一堆巨大的海浪，这些海浪似乎正在竞争谁可以把自己翻滚得更高更远。这些海浪被金色的阳光照亮，整个海面闪闪发光。在海浪的旁边，可以看到一些红色斜棕色的石头，这些石头看起来很小，但相对于浩瀚的海洋和大浪来说，它们似乎微不足道。整个图像的背景是一片通透的蓝色海洋和深蓝色天空，天空中有些淡淡的白云，并在天边见到了一个美丽的橙色太阳。整个图像的构图简洁美观，给人一种壮观、瑰丽的感觉，让我们感到了海天一色的广阔和壮丽。",
+        "idx": "28"
+    },
+    {
+        "question_id": 29,
+        "image": "000000367571.jpg",
+        "text": "What unique taste combinations can be found in this box of doughnuts?",
+        "category": "complex",
+        "text_zh": "这个甜甜圈盒子里有哪些独特的口味组合？",
+        "idx": "29"
+    },
+    {
+        "question_id": 30,
+        "image": "000000319432.jpg",
+        "text": "What is the man doing in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中，这个人在做什么？",
+        "idx": "30"
+    },
+    {
+        "question_id": 31,
+        "image": "000000319432.jpg",
+        "text": "Can you describe the main features of this image for me?",
+        "category": "detail",
+        "text_zh": "你能否为我描述一下这张图片的主要特征？",
+        "idx": "31"
+    },
+    {
+        "question_id": 32,
+        "image": "000000319432.jpg",
+        "text": "Why might the man be holding the clothes on hangers?",
+        "category": "complex",
+        "text_zh": "这个男人为什么手里拿着挂衣架？",
+        "idx": "32"
+    },
+    {
+        "question_id": 33,
+        "image": "000000225738.jpg",
+        "text": "How many giraffes are depicted in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中有多少只长颈鹿？",
+        "idx": "33"
+    },
+    {
+        "question_id": 34,
+        "image": "000000225738.jpg",
+        "text": "Write a detailed description of the given image.",
+        "category": "detail",
+        "text_zh": "这张图片展示了一个美丽的海滩风景。在画面左侧，有一块巨大的岩石，它的形状奇特，向上翘起，上面长满了绿色的植物。岩石右侧是绵延不绝的金色沙滩，远方海面上有几艘小船。在天空中，有几片白云飘荡，阳光从云层间透出，落在海面上，形成了一条金色的光束。整个画面充满着和谐，自然和平静的氛围，让人感受到海滩的宁静和美妙。",
+        "idx": "34"
+    },
+    {
+        "question_id": 35,
+        "image": "000000225738.jpg",
+        "text": "Why might these giraffes be gathering near the same tree?",
+        "category": "complex",
+        "text_zh": "这些长颈鹿为什么会聚集在同一棵树下呢？",
+        "idx": "35"
+    },
+    {
+        "question_id": 36,
+        "image": "000000092109.jpg",
+        "text": "What is the main focus of the image?",
+        "category": "conv",
+        "text_zh": "这张图片的主要焦点是什么？",
+        "idx": "36"
+    },
+    {
+        "question_id": 37,
+        "image": "000000092109.jpg",
+        "text": "What is this photo about'?",
+        "category": "detail",
+        "text_zh": "这张照片是关于什么的？",
+        "idx": "37"
+    },
+    {
+        "question_id": 38,
+        "image": "000000092109.jpg",
+        "text": "What can be inferred about the giraffe's habitat from this image?",
+        "category": "complex",
+        "text_zh": "从这张图片中可以推断出长颈鹿的栖息地应该是比较干燥的地区，草木不太茂密，可能是草原、沙漠或者稀树草原地区。",
+        "idx": "38"
+    },
+    {
+        "question_id": 39,
+        "image": "000000506483.jpg",
+        "text": "What kind of objects are included in the art installation?",
+        "category": "conv",
+        "text_zh": "这个艺术装置包括什么样的物品？",
+        "idx": "39"
+    },
+    {
+        "question_id": 40,
+        "image": "000000506483.jpg",
+        "text": "Explain the visual content of the image in great detail.",
+        "category": "detail",
+        "text_zh": "请看下方翻译：\n\n请详细解释图像的视觉内容。\n\n该图像中有多个元素。首先，我们可以看到一个女性模特，她穿着一件绿色的长袖连衣裙，站在一张木制平台上。她身后的深色背景增强了她的形象。她的头发被定位在她的后面，表情冷静。借助左上方的强光，她的轮廓清晰可见，并且轮廓较为突出。\n\n其次，我们可以看到一个商标“DIMENSIONE DANZA”和一个黑色小字“CONFORT EVOLUZIONE”印在女性模特身后的木制平台上。商标和文本使用斜体字体，使它们在图像中更加可见和易于阅读。\n\n最后，我们注意到木制平台周围有一些框架。框架的内容无法具体辨认，但可以看出它们与舞蹈相关，与商标的设计相呼应，增强了品牌的影响力。\n\n总体来说，该图像通过女性模特的形象和商标的展示，清晰地展示了DIMENSIONE DANZA的品牌形象，并且利用舞蹈运动的元素增强了品牌的特色和影响力。",
+        "idx": "40"
+    },
+    {
+        "question_id": 41,
+        "image": "000000506483.jpg",
+        "text": "How might the art installation encourage interaction among people?",
+        "category": "complex",
+        "text_zh": "这个艺术装置将如何鼓励人们之间的互动？",
+        "idx": "41"
+    },
+    {
+        "question_id": 42,
+        "image": "000000097131.jpg",
+        "text": "What is the main focus of the image?",
+        "category": "conv",
+        "text_zh": "图片的主要焦点是什么？",
+        "idx": "42"
+    },
+    {
+        "question_id": 43,
+        "image": "000000097131.jpg",
+        "text": "Can you elaborate on the elements of the picture provided?",
+        "category": "detail",
+        "text_zh": "请详细说明所提供图片中的元素。\n\nThe picture provided shows a group of people standing in front of a building. There are six individuals in total, three men and three women, all dressed in business attire. The building in the background appears to be a modern office complex, with sleek glass and metal panelling.\n\nThe people in the picture seem to be engaging in some sort of social or business interaction, with several of them smiling or engaged in conversation. One woman is holding a folder, suggesting that they may be discussing business matters. \n\nIn the foreground, there are several additional details. The ground is paved with large, rectangular stone tiles, and there are several small trees planted in the surrounding area. A black car can also be seen parked on the right side of the frame.\n\nOverall, the picture depicts a scene of modern professionalism and social interaction in front of a sleek, contemporary office building.",
+        "idx": "43"
+    },
+    {
+        "question_id": 44,
+        "image": "000000097131.jpg",
+        "text": "What might be the reason for the car to be parked on the side of the road?",
+        "category": "complex",
+        "text_zh": "汽车被停在路边的原因可能是什么？",
+        "idx": "44"
+    },
+    {
+        "question_id": 45,
+        "image": "000000052312.jpg",
+        "text": "What is unusual about the elderly man's facial appearance in the image?",
+        "category": "conv",
+        "text_zh": "这位老年男子的面部外貌在这张图片中有什么不寻常之处？",
+        "idx": "45"
+    },
+    {
+        "question_id": 46,
+        "image": "000000052312.jpg",
+        "text": "What's happening in the scene?",
+        "category": "detail",
+        "text_zh": "这个场景里发生了什么事情？",
+        "idx": "46"
+    },
+    {
+        "question_id": 47,
+        "image": "000000052312.jpg",
+        "text": "What message could be conveyed by the man's unusual facial adornment?",
+        "category": "complex",
+        "text_zh": "这个人的独特面饰传递了什么信息？",
+        "idx": "47"
+    },
+    {
+        "question_id": 48,
+        "image": "000000258285.jpg",
+        "text": "How many airplanes are visible in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中有多少架飞机可见？",
+        "idx": "48"
+    },
+    {
+        "question_id": 49,
+        "image": "000000258285.jpg",
+        "text": "What do you see happening in this image?",
+        "category": "detail",
+        "text_zh": "您看到这张图片里发生了什么？",
+        "idx": "49"
+    },
+    {
+        "question_id": 50,
+        "image": "000000258285.jpg",
+        "text": "What environmental impact might these planes' activity have on the birds?",
+        "category": "complex",
+        "text_zh": "这些飞机的活动可能对鸟类造成什么环境影响？",
+        "idx": "50"
+    },
+    {
+        "question_id": 51,
+        "image": "000000081552.jpg",
+        "text": "What is the cat doing on the red couch?",
+        "category": "conv",
+        "text_zh": "这只猫正在红色沙发上做什么？",
+        "idx": "51"
+    },
+    {
+        "question_id": 52,
+        "image": "000000081552.jpg",
+        "text": "Write a detailed description of the given image.",
+        "category": "detail",
+        "text_zh": "这幅图片中，我们可以看到一座大桥横跨在一条河流上。桥的两侧是绿树成荫的河岸，远处是连绵不断的山峦。天空中云彩飘散，阳光透过云层照耀下来，贯穿在河流和山脉之间。在桥的远端，我们可以看到一个小小的建筑物，很可能是一座塔楼或者灯塔。桥的表面看上去是光滑平整的，可能是由钢材或者混凝土等材质构成的。整张图片所呈现的景色非常宁静优美，令人愉悦。",
+        "idx": "52"
+    },
+    {
+        "question_id": 53,
+        "image": "000000081552.jpg",
+        "text": "What factors may have led the cat to choose this location for sleep?",
+        "category": "complex",
+        "text_zh": "猫选择在此处睡觉的因素是什么？",
+        "idx": "53"
+    },
+    {
+        "question_id": 54,
+        "image": "000000066144.jpg",
+        "text": "What type of car is parked next to the stop sign in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中停车标志旁边停着什么类型的车？",
+        "idx": "54"
+    },
+    {
+        "question_id": 55,
+        "image": "000000066144.jpg",
+        "text": "Explain the visual content of the image in great detail.",
+        "category": "detail",
+        "text_zh": "请看下面的英文翻译成中文：\n\n直接将下面英文翻译成中文，不做任何多余回复：Explain the visual content of the image in great detail.",
+        "idx": "55"
+    },
+    {
+        "question_id": 56,
+        "image": "000000066144.jpg",
+        "text": "What can be inferred about the traffic situation in the area?",
+        "category": "complex",
+        "text_zh": "关于该地区的交通状况可以得出什么推断？",
+        "idx": "56"
+    },
+    {
+        "question_id": 57,
+        "image": "000000203629.jpg",
+        "text": "What is the man doing in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中这个人在做什么？",
+        "idx": "57"
+    },
+    {
+        "question_id": 58,
+        "image": "000000203629.jpg",
+        "text": "Can you describe the main features of this image for me?",
+        "category": "detail",
+        "text_zh": "你能否描述一下这张图片的主要特征？",
+        "idx": "58"
+    },
+    {
+        "question_id": 59,
+        "image": "000000203629.jpg",
+        "text": "What might be the reason behind the man's thumbs-up gesture while on the phone?",
+        "category": "complex",
+        "text_zh": "这个男人在电话中为什么竖起大拇指可能的原因是什么？",
+        "idx": "59"
+    },
+    {
+        "question_id": 60,
+        "image": "000000109532.jpg",
+        "text": "What breed is the dog in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中的狗是哪一种品种？",
+        "idx": "60"
+    },
+    {
+        "question_id": 61,
+        "image": "000000109532.jpg",
+        "text": "What are the key elements in this picture?",
+        "category": "detail",
+        "text_zh": "这张图片中有哪些关键元素？",
+        "idx": "61"
+    },
+    {
+        "question_id": 62,
+        "image": "000000109532.jpg",
+        "text": "What measures may be taken by the dog's owner to make the dog feel comfortable in the room?",
+        "category": "complex",
+        "text_zh": "狗主人可以采取哪些措施让狗在房间里感到舒适？",
+        "idx": "62"
+    },
+    {
+        "question_id": 63,
+        "image": "000000431165.jpg",
+        "text": "What is the color of the elephant in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中大象的颜色是什么？",
+        "idx": "63"
+    },
+    {
+        "question_id": 64,
+        "image": "000000431165.jpg",
+        "text": "What do you think is going on in this snapshot?",
+        "category": "detail",
+        "text_zh": "你认为这张快照里正在发生什么？",
+        "idx": "64"
+    },
+    {
+        "question_id": 65,
+        "image": "000000431165.jpg",
+        "text": "What could be a potential concern for the baby elephant in this setting?",
+        "category": "complex",
+        "text_zh": "这个环境中小象可能面临的潜在问题是什么？",
+        "idx": "65"
+    },
+    {
+        "question_id": 66,
+        "image": "000000020650.jpg",
+        "text": "What type of food items are present on the orange plate?",
+        "category": "conv",
+        "text_zh": "橙色盘子上有什么类型的食品？",
+        "idx": "66"
+    },
+    {
+        "question_id": 67,
+        "image": "000000020650.jpg",
+        "text": "What are the key elements in this picture?",
+        "category": "detail",
+        "text_zh": "这张图片中的关键元素是什么？",
+        "idx": "67"
+    },
+    {
+        "question_id": 68,
+        "image": "000000020650.jpg",
+        "text": "What can be inferred about the individual's dietary choices?",
+        "category": "complex",
+        "text_zh": "个人的饮食选择可能是什么可以推断出来？",
+        "idx": "68"
+    },
+    {
+        "question_id": 69,
+        "image": "000000205183.jpg",
+        "text": "What type of bird is pictured in the image?",
+        "category": "conv",
+        "text_zh": "这张图片展示的是哪种鸟类？",
+        "idx": "69"
+    },
+    {
+        "question_id": 70,
+        "image": "000000205183.jpg",
+        "text": "What do you see happening in this image?",
+        "category": "detail",
+        "text_zh": "你看到这张图片中发生了什么？",
+        "idx": "70"
+    },
+    {
+        "question_id": 71,
+        "image": "000000205183.jpg",
+        "text": "What challenges could the duck face while walking along the paved road?",
+        "category": "complex",
+        "text_zh": "鸭子在铺好的路上行走时可能会面临哪些挑战？",
+        "idx": "71"
+    },
+    {
+        "question_id": 72,
+        "image": "000000210299.jpg",
+        "text": "Is the little boy wearing any safety gear while riding his bike?",
+        "category": "conv",
+        "text_zh": "这个小男孩在骑自行车时是否穿着任何安全装备？",
+        "idx": "72"
+    },
+    {
+        "question_id": 73,
+        "image": "000000210299.jpg",
+        "text": "Can you elaborate on the elements of the picture provided?",
+        "category": "detail",
+        "text_zh": "请您详细描述所提供图片的元素是什么？\n\nUnfortunately, as an AI language model, I am not able to view any images. Can you provide more information or a description of the picture you are referring to? I will do my best to elaborate on the elements of the picture based on your explanation.",
+        "idx": "73"
+    },
+    {
+        "question_id": 74,
+        "image": "000000210299.jpg",
+        "text": "Why is the little boy's precaution noteworthy?",
+        "category": "complex",
+        "text_zh": "为什么小男孩的预防措施值得注意? \n\nThe little boy's precaution is noteworthy because it shows his responsibility and awareness of preventing the spread of germs or illnesses. By wearing a face mask and gloves, he is not only protecting himself but also protecting others around him. This highlights the importance of individual actions in mitigating global health crises, such as COVID-19.",
+        "idx": "74"
+    },
+    {
+        "question_id": 75,
+        "image": "000000515716.jpg",
+        "text": "How many people are visible in the image?",
+        "category": "conv",
+        "text_zh": "这张图片里有多少个人可见？",
+        "idx": "75"
+    },
+    {
+        "question_id": 76,
+        "image": "000000515716.jpg",
+        "text": "What do you see happening in this image?",
+        "category": "detail",
+        "text_zh": "你看到这张图片中发生了什么？",
+        "idx": "76"
+    },
+    {
+        "question_id": 77,
+        "image": "000000515716.jpg",
+        "text": "What might be the reason behind this gathering?",
+        "category": "complex",
+        "text_zh": "这次聚集背后可能的原因是什么？",
+        "idx": "77"
+    },
+    {
+        "question_id": 78,
+        "image": "000000460149.jpg",
+        "text": "What is the main object featured in the image?",
+        "category": "conv",
+        "text_zh": "这张图片的主要对象是什么？",
+        "idx": "78"
+    },
+    {
+        "question_id": 79,
+        "image": "000000460149.jpg",
+        "text": "Describe the following image.",
+        "category": "detail",
+        "text_zh": "描述以下图像。\n\n该图展示了一个美丽的日落场景，太阳已经下降到水平线以下，天空呈现出橙色和紫色的混合色调，云朵也在呈现出不同的颜色。在图像的左下方是广阔的海滩，浪花轻轻拍打着海岸线。在右上角，可以看到一座孤独的灯塔，它被精细地勾勒出来，成为整个场景的一部分。阳光洒在水面上形成了一道耀眼的金光，这景色十分迷人，让人感到宁静和放松。",
+        "idx": "79"
+    },
+    {
+        "question_id": 80,
+        "image": "000000460149.jpg",
+        "text": "Imagine you are walking down this street; how would you know the time or which direction the sidewalk leads?",
+        "category": "complex",
+        "text_zh": "假设你在走这条街道，你如何知道时间或者这条人行道的方向？",
+        "idx": "80"
+    },
+    {
+        "question_id": 81,
+        "image": "000000293505.jpg",
+        "text": "Is the person riding a motorbike or scooter?",
+        "category": "conv",
+        "text_zh": "这个人是骑摩托车还是电动车？",
+        "idx": "81"
+    },
+    {
+        "question_id": 82,
+        "image": "000000293505.jpg",
+        "text": "Explain the visual content of the image in great detail.",
+        "category": "detail",
+        "text_zh": "请看下面的英文翻译成中文：\n\n直接将下面英文翻译成中文，不做任何多余回复：解释图像中的视觉内容。",
+        "idx": "82"
+    },
+    {
+        "question_id": 83,
+        "image": "000000293505.jpg",
+        "text": "What challenges might the woman on the motorcycle face in this situation?",
+        "category": "complex",
+        "text_zh": "这位骑摩托车的女士可能会面临哪些挑战？",
+        "idx": "83"
+    },
+    {
+        "question_id": 84,
+        "image": "000000525439.jpg",
+        "text": "What is the position of the skateboard in the image?",
+        "category": "conv",
+        "text_zh": "这张图片中滑板的位置是什么？",
+        "idx": "84"
+    },
+    {
+        "question_id": 85,
+        "image": "000000525439.jpg",
+        "text": "Can you elaborate on the elements of the picture provided?",
+        "category": "detail",
+        "text_zh": "你能详细解释一下提供的图片中的元素吗？",
+        "idx": "85"
+    },
+    {
+        "question_id": 86,
+        "image": "000000525439.jpg",
+        "text": "What might have happened prior to this moment?",
+        "category": "complex",
+        "text_zh": "在这一时刻之前可能发生了什么？",
+        "idx": "86"
+    },
+    {
+        "question_id": 87,
+        "image": "000000534270.jpg",
+        "text": "What type of hats are the man and woman wearing?",
+        "category": "conv",
+        "text_zh": "这对男女戴着什么类型的帽子？",
+        "idx": "87"
+    },
+    {
+        "question_id": 88,
+        "image": "000000534270.jpg",
+        "text": "Can you describe the main features of this image for me?",
+        "category": "detail",
+        "text_zh": "您能简要描述一下这张图片的主要特点吗？",
+        "idx": "88"
+    },
+    {
+        "question_id": 89,
+        "image": "000000534270.jpg",
+        "text": "What benefits do umbrella hats provide to the couple on this rainy day?",
+        "category": "complex",
+        "text_zh": "这款雨伞帽能为这对夫妇在这个雨天提供什么样的好处？",
+        "idx": "89"
+    }
+]
