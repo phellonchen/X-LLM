@@ -28,12 +28,30 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 - [Evaluation](#evaluation)
 - [Performance](#performance)
 
+## Install
+1. Creating conda environment
+
+```bash
+conda create -n lavis python=3.8
+conda activate lavis
+```
+
+2. Build from source
+
+```bash
+git clone https://github.com/phellonchen/X-LLM.git
+cd X-LLM
+pip install -e .
+```
+
 ## Data Download
 Please see the [README_DATA.md](https://github.com/phellonchen/X-LLM/blob/main/README_DATA.md) for details.
-## Install
+
 ## Training
 Please see the [README_TRAIN_EVAL.md](https://github.com/phellonchen/X-LLM/blob/main/README_TRAIN_EVAL.md) for details.
+
 ## Evaluation
+Please see the [README_TRAIN_EVAL.md](https://github.com/phellonchen/X-LLM/blob/main/README_TRAIN_EVAL.md) for details.
 
 ## Performance
 An evaluation dataset with 30 unseen images is constructed: each image is assocaited with three types of instructions: conversation, detailed description and complex reasoning. This leads to 90 new language-image instructions, on which we test X-LLM and GPT-4, and use ChatGPT to rate their responses from score 1 to 10. The summed score and relative score per type is reported. Overall, X-LLM achieves 84.5% relative score compared with GPT-4, indicating the effectinvess of the proposed method in multimodal settings.
