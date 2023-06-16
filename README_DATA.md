@@ -13,28 +13,28 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
 
 <table border="1" width="100%">
     <tr align="center">
-        <th>Dataset</th><th>Image</th><th>Data</th>
+        <th>Dataset</th><th>Image</th><th>Data</th><td>Language</td>
     </tr>
     <tr align="center">
-        <td>CC3M</td><td><a href="https://github.com/google-research-datasets/conceptual-captions">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>CC3M</td><td><a href="https://github.com/google-research-datasets/conceptual-captions">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>MSCOCO</td><td><a href="https://cocodataset.org/">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>MSCOCO</td><td><a href="https://cocodataset.org/">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>Visual Genome</td><td><a href="https://visualgenome.org/">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Visual Genome</td><td><a href="https://visualgenome.org/">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>Flickr30k</td><td><a href="http://shannon.cs.illinois.edu/DenotationGraph/">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Flickr30k</td><td><a href="http://shannon.cs.illinois.edu/DenotationGraph/">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>SBU</td><td><a href="https://www.cs.rice.edu/~vo9/sbucaptions/">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>SBU</td><td><a href="https://www.cs.rice.edu/~vo9/sbucaptions/">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>AI Challenger captions</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>AI Challenger captions</td><td><a href="">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>Wukong captions</td><td><a href="https://github.com/AIChallenger/AI_Challenger_2017">Image Url</a></td><td><a href="">Data Json</a></td>
+        <td>Wukong captions</td><td><a href="https://github.com/AIChallenger/AI_Challenger_2017">Image Url</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
 </table>
 <br></br>
@@ -45,13 +45,13 @@ We provide the public links to speech data (*.wav & feats), it is recommended th
 
 <table border="1" width="100%">
     <tr align="center">
-        <th>Dataset</th><th>Audio/Features</th><th>Data</th>
+        <th>Dataset</th><th>Audio/Features</th><th>Data</th><th>Language</th>
     </tr>
     <tr align="center">
-        <td>AISHELL-2</td><td><a href="">Audio/Features</a></td><td><a href="">Data Json</a></td>
+        <td>AISHELL-2</td><td><a href="">Audio/Features</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>VSDial-CN</td><td><a href="">Audio/Features</a></td><td><a href="">Data Json</a></td>
+        <td>VSDial-CN</td><td><a href="">Audio/Features</a></td><td><a href="">Data Json</a></td><td>ZH</td>
     </tr>
 </table>
 <br></br>
