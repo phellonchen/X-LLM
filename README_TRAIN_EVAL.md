@@ -10,7 +10,7 @@ Note that you should replace the related absolute paths of datasets. Please see 
 ## Stage 1
 We find that the Q-former module trained on English image-text data can be transferred to other languages. So we use the Q-Former parameters trained in the first stage of BLIP2 to initialize the Q-Former. And we start the second stage of training the model directly.
 
-We will release the stage 1's script as soon as possible.
+We will release the stage 1's script to train the model from sractch as soon as possible.
 
 ## Stage 2
 
