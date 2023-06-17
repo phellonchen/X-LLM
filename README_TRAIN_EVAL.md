@@ -5,7 +5,9 @@ X-LLM connects multiple pre-trained single-modal encoders (such as ViT-g visual 
 - Stage 2: Aligning X2L Representations with the LLM. Inject foreign languages into LLM, only X2L interfaces are updated.
 - Stage 3: Integrating Multiple Modalities. Integrating multi-modalities, only the adapters in X2L interfaces are updated.
 
-Note that you should replace the related absolute paths of datasets. Please see [README_DATA.md](https://github.com/phellonchen/X-LLM/blob/main/README_DATA.md) for details.
+## Before training
+1. You should replace the related absolute paths of datasets. Please see [README_DATA.md](https://github.com/phellonchen/X-LLM/blob/main/README_DATA.md) for details.
+2. Download the model checkpoint of [ChatGLM](), and replace the opt_model path in xllm/projects/train/\*.yaml
 
 ## Stage 1
 We find that the Q-former module trained on English image-text data can be transferred to other languages. So we use the Q-Former parameters trained in the first stage of BLIP2 to initialize the Q-Former. And we start the second stage of training the model directly.
