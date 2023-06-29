@@ -34,9 +34,11 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
         <td>AI Challenger captions</td><td><a href="https://github.com/AIChallenger/AI_Challenger_2017">Image Url</a></td><td><a href="https://drive.google.com/file/d/1qxufClVlcz4S4acweqgkpcFbEyax7Rx7/view?usp=drive_link">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>Wukong captions</td><td><a href="">Image Url</a></td><td><a href="https://drive.google.com/file/d/14-GWHbhVWSIDWdeIzZLRU15oURqLR0kC/view?usp=drive_link">Data Json</a></td><td>ZH</td>
+        <td>Wukong captions</td><td><a href="https://wukong-dataset.github.io/wukong-dataset/">Image Url</a></td><td><a href="https://drive.google.com/file/d/14-GWHbhVWSIDWdeIzZLRU15oURqLR0kC/view?usp=drive_link">Data Json</a></td><td>ZH</td>
     </tr>
 </table>
+
+Please note that for the Wukong dataset, we filtered the first 50 million images using CLIP and only kept samples with a visual-textual similarity score greater than 0.475. Additionally, you will need to pair the captions with the corresponding images based on the image captions.
 <br></br>
 
 Data Format
