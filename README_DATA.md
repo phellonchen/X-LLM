@@ -38,7 +38,7 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
     </tr>
 </table>
 
-Please note that for the Wukong dataset, we filtered the first 50 million images using [CLIP](https://github.com/OFA-Sys/Chinese-CLIP) (Vit-B-16 model)  and only kept samples with a visual-textual similarity score greater than 0.475. Additionally, you will need to pair the captions with the corresponding images based on the image captions.
+Please note that for the Wukong dataset, we filtered the first 50 million images using [Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) (Vit-B-16 model)  and only kept samples with a visual-textual similarity score greater than 0.475. Additionally, you will need to pair the captions with the corresponding images based on the image captions.
 <br></br>
 
 Data Format
