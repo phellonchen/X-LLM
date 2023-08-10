@@ -22,7 +22,7 @@ The pretraining datasets used in X-LLM are all publicly available. Here we provi
         <td>MSCOCO</td><td><a href="https://cocodataset.org/">Image Url</a></td><td><a href="https://drive.google.com/file/d/1PdkguGtBXosvzTgwGXD5uYZisQ_zLAdH/view?usp=drive_link">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
-        <td>Visual Genome</td><td><a href="https://visualgenome.org/">Image Url</a></td><td><a href="[https://drive.google.com/file/d/1ofZE2fIaYxBSZy36-9V-zxrt9JUQM1X2/view?usp=drive_link](https://drive.google.com/file/d/18mBicNuunjEMukFoPsvTkfR7o-vXelcH/view?usp=sharing)">Data Json</a></td><td>ZH</td>
+        <td>Visual Genome</td><td><a href="https://visualgenome.org/">Image Url</a></td><td><a href="https://drive.google.com/file/d/18mBicNuunjEMukFoPsvTkfR7o-vXelcH/view?usp=sharing">Data Json</a></td><td>ZH</td>
     </tr>
     <tr align="center">
         <td>Flickr30k</td><td><a href="http://shannon.cs.illinois.edu/DenotationGraph/">Image Url</a></td><td><a href="https://drive.google.com/file/d/1ofZE2fIaYxBSZy36-9V-zxrt9JUQM1X2/view?usp=drive_link">Data Json</a></td><td>ZH</td>
