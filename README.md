@@ -13,11 +13,7 @@
 
 > 🚀 **X-LLM** aligns multiple **frozen** single-modal encoders and a **frozen** large language model (**ChatGLM**) through **X2L interfaces**, where **"X"** denotes the multi-modalities (image, speech, videos) and **"L"** denotes languages. By treating each modality as a "foreign language", X-LLM builds a Multimodal LLM with impressive multimodal chat abilities — sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images and instructions.
 
-X-LLM is a **general multimodal LLM framework** that lets you incorporate diverse modalities into LLMs, for example:
-
-- **Non-speech audio** — enabling the LLM to converse about audio content.
-- **Terminal device status** — enabling the LLM to control terminal devices.
-- ...and more.
+X-LLM is a **general multimodal LLM framework** that lets you incorporate diverse modalities into LLMs.
 
 <p align="center">
   <img src="images/x-llm.png" width="95%" alt="X-LLM framework" /> <br>
@@ -144,15 +140,11 @@ If you find X-LLM useful for your research and applications, please cite it usin
 
 ## Star History
 
+## Star History
+
 <div align="center">
 
-<a href="https://star-history.com/#phellonchen/X-LLM&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=phellonchen/X-LLM&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=phellonchen/X-LLM&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=phellonchen/X-LLM&type=Date" width="600" />
-  </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=phellonchen/X-LLM&type=Date)](https://star-history.com/#phellonchen/X-LLM&Date)
 
 </div>
 
