@@ -41,7 +41,6 @@ Beyond multimodal chat, X-LLM also conducts **quantitative studies on using the 
 - [Examples](#examples)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
-- [Star History](#star-history)
 
 ---
 
