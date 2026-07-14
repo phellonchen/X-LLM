@@ -138,16 +138,4 @@ If you find X-LLM useful for your research and applications, please cite it usin
 
 ---
 
-## Star History
-
-## Star History
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=phellonchen/X-LLM&type=Date)](https://star-history.com/#phellonchen/X-LLM&Date)
-
-</div>
-
----
-
 ⭐ If you find this repository helpful, please consider giving it a star.
